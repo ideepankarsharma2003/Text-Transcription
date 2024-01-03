@@ -1,0 +1,6 @@
+torch
+transformers [speech, sentencepiece]
+datasets
+torchaudio 
+sentencepiece
+gradio
