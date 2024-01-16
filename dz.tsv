@@ -1,0 +1,31 @@
+start	end	text
+0	6200	The following is a conversation with Jan LeCun, his second time on the podcast.
+6200	14280	He is the chief AI scientist at Meta, formerly Facebook, professor at NYU, touring award
+14280	19220	winner, one of the seminal figures in the history of machine learning and artificial
+19220	25700	intelligence, and someone who is brilliant and opinionated in the best kind of way, and
+25700	27060	so is always fun to talk to.
+27060	29720	So, this is a Lex Friedman podcast.
+29900	32520	To support it, please check out our sponsors in the description.
+33220	36740	And now, here's my conversation with Jan LeCun.
+38460	43240	You co-wrote the article, Self-Supervised Learning, The Dark Matter of Intelligence.
+43620	45800	Great title, by the way, with Ishan Mizra.
+46260	51840	So let me ask, what is self-supervised learning, and why is it the dark matter of intelligence?
+53900	55800	I'll start by the dark matter part.
+57060	65320	There is obviously a kind of learning that humans and animals are doing that we currently
+65320	68920	are not reproducing properly with machines, with AI, right?
+69000	73660	So the most popular approaches to machine learning today are, or paradigms, I should
+73660	75920	say, are supervised learning and reinforcement learning.
+76980	78720	And they are extremely inefficient.
+79600	85520	Supervised learning requires many samples for learning anything, and reinforcement learning
+85520	86940	requires a ridiculously large amount of time.
+87060	91320	There's a large number of trial and errors for a system to learn anything.
+94380	96280	And that's why we don't have self-driving cars.
+98240	100020	That's a big leap from one to the other.
+100440	108060	Okay, so to solve difficult problems, you have to have a lot of human annotation for
+108060	109160	supervised learning to work.
+109640	113740	And to solve those difficult problems with reinforcement learning, you have to have some
+113740	116740	way to maybe simulate that problem such that you can do that large-scale.
+117060	119660	Kind of learning that reinforcement learning requires.
+120040	120120	Right.
+121720	122160	Right.
+122320	127540	So how is it that, you know, most teenagers can learn to drive a car in about 20

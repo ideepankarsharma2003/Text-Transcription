@@ -1,0 +1,30 @@
+The following is a conversation with Jan LeCun, his second time on the podcast.
+He is the chief AI scientist at Meta, formerly Facebook, professor at NYU, touring award
+winner, one of the seminal figures in the history of machine learning and artificial
+intelligence, and someone who is brilliant and opinionated in the best kind of way, and
+so is always fun to talk to.
+So, this is a Lex Friedman podcast.
+To support it, please check out our sponsors in the description.
+And now, here's my conversation with Jan LeCun.
+You co-wrote the article, Self-Supervised Learning, The Dark Matter of Intelligence.
+Great title, by the way, with Ishan Mizra.
+So let me ask, what is self-supervised learning, and why is it the dark matter of intelligence?
+I'll start by the dark matter part.
+There is obviously a kind of learning that humans and animals are doing that we currently
+are not reproducing properly with machines, with AI, right?
+So the most popular approaches to machine learning today are, or paradigms, I should
+say, are supervised learning and reinforcement learning.
+And they are extremely inefficient.
+Supervised learning requires many samples for learning anything, and reinforcement learning
+requires a ridiculously large amount of time.
+There's a large number of trial and errors for a system to learn anything.
+And that's why we don't have self-driving cars.
+That's a big leap from one to the other.
+Okay, so to solve difficult problems, you have to have a lot of human annotation for
+supervised learning to work.
+And to solve those difficult problems with reinforcement learning, you have to have some
+way to maybe simulate that problem such that you can do that large-scale.
+Kind of learning that reinforcement learning requires.
+Right.
+Right.
+So how is it that, you know, most teenagers can learn to drive a car in about 20

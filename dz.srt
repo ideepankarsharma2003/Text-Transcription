@@ -1,0 +1,120 @@
+1
+00:00:00,000 --> 00:00:06,200
+The following is a conversation with Jan LeCun, his second time on the podcast.
+
+2
+00:00:06,200 --> 00:00:14,280
+He is the chief AI scientist at Meta, formerly Facebook, professor at NYU, touring award
+
+3
+00:00:14,280 --> 00:00:19,220
+winner, one of the seminal figures in the history of machine learning and artificial
+
+4
+00:00:19,220 --> 00:00:25,700
+intelligence, and someone who is brilliant and opinionated in the best kind of way, and
+
+5
+00:00:25,700 --> 00:00:27,060
+so is always fun to talk to.
+
+6
+00:00:27,060 --> 00:00:29,720
+So, this is a Lex Friedman podcast.
+
+7
+00:00:29,900 --> 00:00:32,520
+To support it, please check out our sponsors in the description.
+
+8
+00:00:33,220 --> 00:00:36,740
+And now, here's my conversation with Jan LeCun.
+
+9
+00:00:38,460 --> 00:00:43,240
+You co-wrote the article, Self-Supervised Learning, The Dark Matter of Intelligence.
+
+10
+00:00:43,620 --> 00:00:45,800
+Great title, by the way, with Ishan Mizra.
+
+11
+00:00:46,260 --> 00:00:51,840
+So let me ask, what is self-supervised learning, and why is it the dark matter of intelligence?
+
+12
+00:00:53,900 --> 00:00:55,800
+I'll start by the dark matter part.
+
+13
+00:00:57,060 --> 00:01:05,320
+There is obviously a kind of learning that humans and animals are doing that we currently
+
+14
+00:01:05,320 --> 00:01:08,920
+are not reproducing properly with machines, with AI, right?
+
+15
+00:01:09,000 --> 00:01:13,660
+So the most popular approaches to machine learning today are, or paradigms, I should
+
+16
+00:01:13,660 --> 00:01:15,920
+say, are supervised learning and reinforcement learning.
+
+17
+00:01:16,980 --> 00:01:18,720
+And they are extremely inefficient.
+
+18
+00:01:19,600 --> 00:01:25,520
+Supervised learning requires many samples for learning anything, and reinforcement learning
+
+19
+00:01:25,520 --> 00:01:26,940
+requires a ridiculously large amount of time.
+
+20
+00:01:27,060 --> 00:01:31,320
+There's a large number of trial and errors for a system to learn anything.
+
+21
+00:01:34,380 --> 00:01:36,280
+And that's why we don't have self-driving cars.
+
+22
+00:01:38,240 --> 00:01:40,020
+That's a big leap from one to the other.
+
+23
+00:01:40,440 --> 00:01:48,060
+Okay, so to solve difficult problems, you have to have a lot of human annotation for
+
+24
+00:01:48,060 --> 00:01:49,160
+supervised learning to work.
+
+25
+00:01:49,640 --> 00:01:53,740
+And to solve those difficult problems with reinforcement learning, you have to have some
+
+26
+00:01:53,740 --> 00:01:56,740
+way to maybe simulate that problem such that you can do that large-scale.
+
+27
+00:01:57,060 --> 00:01:59,660
+Kind of learning that reinforcement learning requires.
+
+28
+00:02:00,040 --> 00:02:00,120
+Right.
+
+29
+00:02:01,720 --> 00:02:02,160
+Right.
+
+30
+00:02:02,320 --> 00:02:07,540
+So how is it that, you know, most teenagers can learn to drive a car in about 20
+

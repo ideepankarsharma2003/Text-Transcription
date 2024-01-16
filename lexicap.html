@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lexicap</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            font-size: 18px;
+            color: #111;
+            padding: 0 0 1em 0;
+        }
+        .l {
+          color: #050;
+        }
+        .s {
+            display: inline-block;
+        }
+        .e {
+            display: inline-block;
+        }
+        .t {
+            display: inline-block;
+        }
+        #player {
+		position: sticky;
+		top: 20px;
+		float: right;
+	}
+    </style>
+  </head>
+  <body>
+    <h2>Yann LeCun: Dark Matter of Intelligence and Self-Supervised Learning | Lex Fridman Podcast #258</h2>
+  <div  id="player"></div>
+    <script>
+      var tag = document.createElement('script');
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+      var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          height: '210',
+          width: '340',
+          videoId: 'SGzMElJ11Cc',
+        });
+      }
+      function setCurrentTime(timepoint) {
+        player.seekTo(timepoint);
+   player.playVideo();
+   }
+    </script><br>
+			<div class="c">
+				<a class="l" href="#00:00:0.00" id="00:00:0.00">link</a> |
+				<div class="s"><a href="javascript:void(0);" onclick=setCurrentTime(0)>00:00:0.00</a></div>
+				<div class="t">[Lex] The following is a conversation with Jan LeCun, his second time on the podcast.</div>
+			</div>
+
+			<div class="c">
+				<a class="l" href="#00:00:4.22" id="00:00:4.22">link</a> |
+				<div class="s"><a href="javascript:void(0);" onclick=setCurrentTime(4)>00:00:4.22</a></div>
+				<div class="t">[Lex] He is the chief AI scientist at Meta, formerly Facebook, professor at NYU, touring award</div>
+			</div>
+
+			<div class="c">
+				<a class="l" href="#00:00:12.30" id="00:00:12.30">link</a> |
+				<div class="s"><a href="javascript:void(0);" onclick=setCurrentTime(12)>00:00:12.30</a></div>
+				<div class="t">[Lex] winner, one of the seminal figures in the history of machine learning and artificial</div>
+			</div>
+
+			<div class="c">
+				<a class="l" href="#00:00:17.24" id="00:00:17.24">link</a> |
+				<div class="s"><a href="javascript:void(0);" onclick=setCurrentTime(17)>00:00:17.24</a></div>
+				<div class="t">[Lex] intelligence, and someone who is brilliant and opinionated in the best kind of way, and</div>
+			</div>
+
+			<div class="c">
+				<a class="l" href="#00:00:23.72" id="00:00:23.72">link</a> |
+				<div class="s"><a href="javascript:void(0);" onclick=setCurrentTime(23)>00:00:23.72</a></div>
+				<div class="t">[Lex] so is always fun to talk to.</div>
+			</div>
+
+			<div class="c">
+				<a class="l" href="#00:00:25.08" id="00:00:25.08">link</a> |
+				<div class="s"><a href="javascript:void(0);" onclick=setCurrentTime(25)>00:00:25.08</a></div>
+				<div class="t">[Lex] So, this is a Lex Friedman podcast.</div>
+			</div>
+
+			<div class="c">
+				<a class="l" href="#00:00:27.92" id="00:00:27.92">link</a> |
+				<div class="s"><a href="javascript:void(0);" onclick=setCurrentTime(27)>00:00:27.92</a></div>
+				<div class="t">[Lex] To support it, please check out our sponsors in the description.</div>
+			</div>
+
+			<div class="c">
+				<a class="l" href="#00:00:31.24" id="00:00:31.24">link</a> |
+				<div class="s"><a href="javascript:void(0);" onclick=setCurrentTime(31)>00:00:31.24</a></div>
+				<div class="t">[Lex] And now, here's my conversation with Jan LeCun.</div>
+			</div>
+
+			<div class="c">
+				<a class="l" href="#00:00:35.73" id="00:00:35.73">link</a> |
+				<div class="s"><a href="javascript:void(0);" onclick=setCurrentTime(35)>00:00:35.73</a></div>
+				<div class="t">[Lex] You co-wrote the article, Self-Supervised Learning, The Dark Matter of Intelligence.</div>
+			</div>
+
+			<div class="c">
+				<a class="l" href="#00:00:40.89" id="00:00:40.89">link</a> |
+				<div class="s"><a href="javascript:void(0);" onclick=setCurrentTime(40)>00:00:40.89</a></div>
+				<div class="t">[Lex] Great title, by the way, with Ishan Mizra.</div>
+			</div>
+
+			<div class="c">
+				<a class="l" href="#00:00:43.53" id="00:00:43.53">link</a> |
+				<div class="s"><a href="javascript:void(0);" onclick=setCurrentTime(43)>00:00:43.53</a></div>
+				<div class="t">[Lex] So let me ask, what is self-supervised learning, and why is it the dark matter of intelligence?</div>
+			</div>
+
+			<div class="c">
+				<a class="l" href="#00:00:49.56" id="00:00:49.56">link</a> |
+				<div class="s"><a href="javascript:void(0);" onclick=setCurrentTime(49)>00:00:49.56</a></div>
+				<div class="t">[Yann] I'll start by the dark matter part.</div>
+			</div>
+
+			<div class="c">
+				<a class="l" href="#00:00:52.72" id="00:00:52.72">link</a> |
+				<div class="s"><a href="javascript:void(0);" onclick=setCurrentTime(52)>00:00:52.72</a></div>
+				<div class="t">[Yann] There is obviously a kind of learning that humans and animals are doing that we currently</div>
+			</div>
+
+			<div class="c">
+				<a class="l" href="#00:01:0.98" id="00:01:0.98">link</a> |
+				<div class="s"><a href="javascript:void(0);" onclick=setCurrentTime(60)>00:01:0.98</a></div>
+				<div class="t">[Yann] are not reproducing properly with machines, with AI, right?</div>
+			</div>
+
+			<div class="c">
+				<a class="l" href="#00:01:4.66" id="00:01:4.66">link</a> |
+				<div class="s"><a href="javascript:void(0);" onclick=setCurrentTime(64)>00:01:4.66</a></div>
+				<div class="t">[Yann] So the most popular approaches to machine learning today are, or paradigms, I should</div>
+			</div>
+
+			<div class="c">
+				<a class="l" href="#00:01:9.32" id="00:01:9.32">link</a> |
+				<div class="s"><a href="javascript:void(0);" onclick=setCurrentTime(69)>00:01:9.32</a></div>
+				<div class="t">[Yann] say, are supervised learning and reinforcement learning.</div>
+			</div>
+
+			<div class="c">
+				<a class="l" href="#00:01:12.64" id="00:01:12.64">link</a> |
+				<div class="s"><a href="javascript:void(0);" onclick=setCurrentTime(72)>00:01:12.64</a></div>
+				<div class="t">[Yann] And they are extremely inefficient.</div>
+			</div>
+
+			<div class="c">
+				<a class="l" href="#00:01:15.26" id="00:01:15.26">link</a> |
+				<div class="s"><a href="javascript:void(0);" onclick=setCurrentTime(75)>00:01:15.26</a></div>
+				<div class="t">[Yann] Supervised learning requires many samples for learning anything, and reinforcement learning</div>
+			</div>
+
+			<div class="c">
+				<a class="l" href="#00:01:21.18" id="00:01:21.18">link</a> |
+				<div class="s"><a href="javascript:void(0);" onclick=setCurrentTime(81)>00:01:21.18</a></div>
+				<div class="t">[Yann] requires a ridiculously large amount of time.</div>
+			</div>
+
+			<div class="c">
+				<a class="l" href="#00:01:22.72" id="00:01:22.72">link</a> |
+				<div class="s"><a href="javascript:void(0);" onclick=setCurrentTime(82)>00:01:22.72</a></div>
+				<div class="t">[Yann] There's a large number of trial and errors for a system to learn anything.</div>
+			</div>
+
+			<div class="c">
+				<a class="l" href="#00:01:28.94" id="00:01:28.94">link</a> |
+				<div class="s"><a href="javascript:void(0);" onclick=setCurrentTime(88)>00:01:28.94</a></div>
+				<div class="t">[Yann] And that's why we don't have self-driving cars.</div>
+			</div>
+
+			<div class="c">
+				<a class="l" href="#00:01:32.70" id="00:01:32.70">link</a> |
+				<div class="s"><a href="javascript:void(0);" onclick=setCurrentTime(92)>00:01:32.70</a></div>
+				<div class="t">[Lex] That's a big leap from one to the other.</div>
+			</div>
+
+			<div class="c">
+				<a class="l" href="#00:01:34.90" id="00:01:34.90">link</a> |
+				<div class="s"><a href="javascript:void(0);" onclick=setCurrentTime(94)>00:01:34.90</a></div>
+				<div class="t">[Lex] Okay, so to solve difficult problems, you have to have a lot of human annotation for</div>
+			</div>
+
+			<div class="c">
+				<a class="l" href="#00:01:42.52" id="00:01:42.52">link</a> |
+				<div class="s"><a href="javascript:void(0);" onclick=setCurrentTime(102)>00:01:42.52</a></div>
+				<div class="t">[Lex] supervised learning to work.</div>
+			</div>
+
+			<div class="c">
+				<a class="l" href="#00:01:44.10" id="00:01:44.10">link</a> |
+				<div class="s"><a href="javascript:void(0);" onclick=setCurrentTime(104)>00:01:44.10</a></div>
+				<div class="t">[Lex] And to solve those difficult problems with reinforcement learning, you have to have some</div>
+			</div>
+
+			<div class="c">
+				<a class="l" href="#00:01:48.20" id="00:01:48.20">link</a> |
+				<div class="s"><a href="javascript:void(0);" onclick=setCurrentTime(108)>00:01:48.20</a></div>
+				<div class="t">[Lex] way to maybe simulate that problem such that you can do that large-scale.</div>
+			</div>
+
+			<div class="c">
+				<a class="l" href="#00:01:51.52" id="00:01:51.52">link</a> |
+				<div class="s"><a href="javascript:void(0);" onclick=setCurrentTime(111)>00:01:51.52</a></div>
+				<div class="t">[Lex] Kind of learning that reinforcement learning requires.</div>
+			</div>
+
+			<div class="c">
+				<a class="l" href="#00:01:54.50" id="00:01:54.50">link</a> |
+				<div class="s"><a href="javascript:void(0);" onclick=setCurrentTime(114)>00:01:54.50</a></div>
+				<div class="t">[Lex] Right.</div>
+			</div>
+
+			<div class="c">
+				<a class="l" href="#00:01:52.50" id="00:01:52.50">link</a> |
+				<div class="s"><a href="javascript:void(0);" onclick=setCurrentTime(112)>00:01:52.50</a></div>
+				<div class="t">[Yann] Right.</div>
+			</div>
+
+			<div class="c">
+				<a class="l" href="#00:01:54.18" id="00:01:54.18">link</a> |
+				<div class="s"><a href="javascript:void(0);" onclick=setCurrentTime(114)>00:01:54.18</a></div>
+				<div class="t">[Yann] Right.</div>
+			</div>
+
+			<div class="c">
+				<a class="l" href="#00:01:54.78" id="00:01:54.78">link</a> |
+				<div class="s"><a href="javascript:void(0);" onclick=setCurrentTime(114)>00:01:54.78</a></div>
+				<div class="t">[Yann] So how is it that, you know, most teenagers can learn to drive a car in about 20</div>
+			</div>
+
+	</body>
+</html>
